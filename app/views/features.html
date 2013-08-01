@@ -1,0 +1,9 @@
+<div class="content">
+    <h1>Congratulations!</h1>
+    <p>You're ready to start rocking with:</p>
+    <ul>
+        <li ng-repeat="feature in features">
+        	<a ng-href="#/features/{{feature.name}}">{{ feature.name | capitalize }}</a>
+        </li>
+    </ul>
+</div>

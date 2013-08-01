@@ -1,0 +1,35 @@
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+html {
+
+  font-size: $base-font;
+  font-family: sans-serif;
+  color: #242424;
+
+  @media screen and (max-device-width: 480px) {
+
+    font-size: $base-font * $mobile-font-ratio;
+
+  }
+
+  background: #dbdbdc;
+
+}
+
+h1, h2, h3 {
+
+  font-family: serif; 
+
+}
+
+a, a:link {
+
+  text-decoration: none;
+  color: #4183c4;
+
+}
